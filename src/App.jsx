@@ -5,6 +5,7 @@ import ChurnPredictor from './components/ChurnPredictor';
 import FeatureEngineering from './components/FeatureEngineering';
 import Dashboard from './components/Dashboard';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Dashboard />
       </main>
       <Footer />
+      <ScrollToTop />
     </>
   );
 }
